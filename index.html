@@ -7,6 +7,10 @@
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
     <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <link href="js/flexslider.css" rel="stylesheet" type="text/css" />
+    <!--<script src="js/slider.js"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
 
@@ -62,7 +66,8 @@
     <div class="container">
         <h2>Meet The Team</h2>
         <p>Dolor sit amet, consectetur adipiscing elit.</p>
-        <ul class="team-item">
+        <div class="flexslider">
+        <ul class="slides">
             <li>
                 <img src="images/team-member-0.jpg" alt="Jonathan Smith" title="Jonathan Smith">
                 <h4>Jonathan Smith</h4>
@@ -84,9 +89,88 @@
                 <span>Designer</span>
             </li>
         </ul>
+        </div>
+    </div>
+</section>
+
+<section id="parallax">
+    <div class="parallax-bg">
+    <div class="container">
+        <h2>Here’s Some Parallax</h2>
+        <span>(If you’re into that kind of thing)</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum enim diam, at condimentum purus facilisis in. Aenean convallis tempor nulla, in elementum odio ornare vitae. In faucibus tempus ante vitae pretium. Ut facilisis elit sapien, sed suscipit ex auctor vitae.</p>
+        <a href="#">Find out more</a>
+    </div>
+    </div>
+</section>
+
+<section id="principles">
+    <div class="container">
+        <img src="images/principles-img.jpg" alt="#">
+        <article>
+            <h2>Our Principles</h2>
+            <span>Dolor sit amet, consectetur adipiscing elit.</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum enim diam, at condimentum purus facilisis in. Aenean convallis tempor nulla, in elementum odio ornare vitae. In faucibus tempus ante vitae pretium. Ut facilisis elit sapien, sed suscipit ex auctor vitae. </p>
+            <a href="#">Find out more</a>
+        </article>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <h2>Portfolio</h2>
+        <p>ome of our latest work</p>
+        <ul class="portfolio-item">
+            <li>
+                <img src="images/portfolio-item-img-0.jpg" alt="Portfolio-item">
+                <a href="#"><span class="fa fa-search"></span></a>
+            </li>
+            <li>
+                <img src="images/portfolio-item-img-01.jpg" alt="Portfolio-item">
+                <a href="#"><span class="fa fa-search"></span></a>
+            </li>
+            <li>
+                <img src="images/portfolio-item-img-02.jpg" alt="Portfolio-item">
+                <a href="#"><span class="fa fa-search"></span></a>
+            </li>
+            <li>
+                <img src="images/portfolio-item-img-03.jpg" alt="Portfolio-item">
+                <a href="#"><span class="fa fa-search"></span></a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="achievements">
+    <div class="container">
+        <h2>Our Achievements</h2>
+        <p>We keep track of this stuff!</p>
+        <ul class="achiev-list">
+            <li>
+                <span class="fa fa-flag-o"></span>
+                <span class="count-achiev">265</span>
+                <h4>Projects Completed</h4>
+            </li>
+            <li>
+                <span class="fa fa-smile-o"></span>
+                <span class="count-achiev">198</span>
+                <h4>Happy Clients</h4>
+            </li>
+            <li>
+                <span class="fa fa-lightbulb-o"></span>
+                <span class="count-achiev">1,895</span>
+                <h4>Problems Solved</h4>
+            </li>
+            <li>
+                <span class="fa fa-moon-o"></span>
+                <span class="count-achiev">365</span>
+                <h4>All-nighters Pulled</h4>
+            </li>
+        </ul>
     </div>
 </section>
 
 </footer>
+
 </body>
 </html>

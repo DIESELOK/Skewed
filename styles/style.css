@@ -252,13 +252,19 @@ header .main-navigation ul li a:hover {
   padding: 10px 30px;
   color: #f7cc4b;
   font-size: 16px;
+  transition: 0.5s;
+}
+/* line 78, ../sass/site-parts/_about.scss */
+#about article a:hover {
+  color: #fff;
+  background-color: #f7cc4b;
 }
 
 /* line 1, ../sass/site-parts/_video.scss */
 #video {
   overflow: hidden;
-  margin: 0 -50px 0;
-  padding: 0 50px;
+  margin: 0 -60px 0;
+  padding: 0 60px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -338,6 +344,314 @@ header .main-navigation ul li a:hover {
   #video .video-wrapper {
     margin-bottom: 250px;
   }
+}
+
+/* line 1, ../sass/site-parts/_team.scss */
+#team {
+  overflow: hidden;
+  margin: 0 -60px 0;
+  padding: 0 60px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+/* line 20, ../sass/site-parts/_team.scss */
+#team .container {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+/* line 27, ../sass/site-parts/_team.scss */
+#team h2 {
+  margin: 100px 0 15px;
+  color: #222;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+}
+/* line 34, ../sass/site-parts/_team.scss */
+#team p {
+  margin: 0 auto 60px;
+  color: #f7cc4b;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 41, ../sass/site-parts/_team.scss */
+#team .slides {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto 100px;
+}
+/* line 46, ../sass/site-parts/_team.scss */
+#team .slides li {
+  display: inline-block;
+  margin: 0 auto 10px;
+  padding: 0 10px;
+}
+/* line 50, ../sass/site-parts/_team.scss */
+#team .slides li img {
+  display: block;
+  margin: 0 auto 30px;
+}
+/* line 54, ../sass/site-parts/_team.scss */
+#team .slides li h4 {
+  margin-bottom: 10px;
+  color: #222;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 61, ../sass/site-parts/_team.scss */
+#team .slides li span {
+  display: block;
+  color: #f7cc4b;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* line 1, ../sass/site-parts/_parallax.scss */
+#parallax {
+  overflow: hidden;
+  background: url("../images/parallax-bg.jpg") no-repeat #222;
+  background-size: cover;
+  opacity: 0.75;
+  margin: 0 -60px 0;
+  padding: 0 60px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+/* line 23, ../sass/site-parts/_parallax.scss */
+#parallax .parallax-bg {
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+/* line 35, ../sass/site-parts/_parallax.scss */
+#parallax h2 {
+  margin: 300px auto 15px;
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 42, ../sass/site-parts/_parallax.scss */
+#parallax span {
+  display: block;
+  margin-bottom: 40px;
+  color: #f7cc4b;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 50, ../sass/site-parts/_parallax.scss */
+#parallax p {
+  max-width: 569px;
+  margin: 0 auto 40px;
+  color: #b1b1b1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 59, ../sass/site-parts/_parallax.scss */
+#parallax a {
+  display: block;
+  width: 170px;
+  height: 40px;
+  margin: 0 auto 200px;
+  border: 2px solid #f7cc4b;
+  border-radius: 1px;
+  padding: 10px 30px;
+  color: #f7cc4b;
+  font-size: 16px;
+  transition: 0.5s;
+}
+/* line 70, ../sass/site-parts/_parallax.scss */
+#parallax a:hover {
+  color: #fff;
+  background-color: #f7cc4b;
+}
+
+/* line 1, ../sass/site-parts/_principles.scss */
+#principles {
+  overflow: hidden;
+}
+/* line 3, ../sass/site-parts/_principles.scss */
+#principles img {
+  float: left;
+  margin: 200px 0 0;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+}
+/* line 9, ../sass/site-parts/_principles.scss */
+#principles article {
+  float: left;
+  max-width: 500px;
+  margin: 230px 0 300px 40px;
+}
+/* line 13, ../sass/site-parts/_principles.scss */
+#principles article h2 {
+  margin-bottom: 15px;
+  color: #222;
+  font-size: 60px;
+  font-weight: 100;
+}
+/* line 19, ../sass/site-parts/_principles.scss */
+#principles article span {
+  display: block;
+  margin-bottom: 40px;
+  color: #f7cc4b;
+  font-size: 20px;
+  font-weight: 300;
+}
+/* line 26, ../sass/site-parts/_principles.scss */
+#principles article p {
+  margin-bottom: 40px;
+  color: #b1b1b1;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* line 32, ../sass/site-parts/_principles.scss */
+#principles article a {
+  display: block;
+  width: 170px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 2px solid #f7cc4b;
+  border-radius: 1px;
+  padding: 10px 30px;
+  color: #f7cc4b;
+  font-size: 16px;
+  transition: 0.5s;
+}
+/* line 43, ../sass/site-parts/_principles.scss */
+#principles article a:hover {
+  color: #fff;
+  background-color: #f7cc4b;
+}
+
+/* line 1, ../sass/site-parts/_portfolio.scss */
+#portfolio {
+  overflow: hidden;
+  margin: 0 -60px 0;
+  padding: 0 60px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  background-color: #f7cc4b;
+}
+/* line 21, ../sass/site-parts/_portfolio.scss */
+#portfolio .container {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+/* line 28, ../sass/site-parts/_portfolio.scss */
+#portfolio h2 {
+  margin: 70px 0 10px;
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+}
+/* line 35, ../sass/site-parts/_portfolio.scss */
+#portfolio p {
+  margin-bottom: 50px;
+  color: #444;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 42, ../sass/site-parts/_portfolio.scss */
+#portfolio .portfolio-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto 200px;
+}
+/* line 47, ../sass/site-parts/_portfolio.scss */
+#portfolio .portfolio-item li {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+}
+/* line 53, ../sass/site-parts/_portfolio.scss */
+#portfolio .portfolio-item li a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+/* line 64, ../sass/site-parts/_portfolio.scss */
+#portfolio .portfolio-item li a:hover {
+  opacity: 1;
+}
+/* line 67, ../sass/site-parts/_portfolio.scss */
+#portfolio .portfolio-item li a span {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 22px;
+  opacity: 0.5;
+  font-size: 18px;
+  background-color: white;
 }
 
 /* line 1, ../sass/layout/_footer.scss */
@@ -458,9 +772,9 @@ footer .container .link-top img {
   box-sizing: border-box;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .container {
-  max-width: 1150px;
+  max-width: 1210px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -473,7 +787,7 @@ footer .container .link-top img {
   clear: both;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 img {
   max-width: 100%;
 }
