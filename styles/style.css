@@ -654,115 +654,267 @@ header .main-navigation ul li a:hover {
   background-color: white;
 }
 
+/* line 1, ../sass/site-parts/_achievements.scss */
+#achievements {
+  overflow: hidden;
+}
+/* line 3, ../sass/site-parts/_achievements.scss */
+#achievements h2 {
+  margin: 100px 0 15px;
+  text-align: center;
+  color: #222;
+  font-size: 60px;
+  font-weight: 100;
+}
+/* line 10, ../sass/site-parts/_achievements.scss */
+#achievements p {
+  margin: 0 auto 60px;
+  color: #f7cc4b;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 17, ../sass/site-parts/_achievements.scss */
+#achievements .achiev-list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto 100px;
+}
+/* line 23, ../sass/site-parts/_achievements.scss */
+#achievements .achiev-list li {
+  display: inline-block;
+  margin: 0 auto 15px;
+  padding: 15px;
+}
+/* line 27, ../sass/site-parts/_achievements.scss */
+#achievements .achiev-list li .fa {
+  display: block;
+  font-size: 60px;
+  text-align: center;
+}
+/* line 32, ../sass/site-parts/_achievements.scss */
+#achievements .achiev-list li .count-achiev {
+  display: block;
+  margin: 15px 0;
+  color: #f7cc4b;
+  font-size: 84px;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 40, ../sass/site-parts/_achievements.scss */
+#achievements .achiev-list li h4 {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
+/* line 46, ../sass/site-parts/_achievements.scss */
+#achievements .achiev-list:after {
+  position: absolute;
+  content: '';
+  display: block;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+}
+/* line 57, ../sass/site-parts/_achievements.scss */
+#achievements .achiev-descript {
+  margin: 120px auto 20px;
+  max-width: 929px;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 35px;
+  color: #222;
+}
+/* line 64, ../sass/site-parts/_achievements.scss */
+#achievements .achiev-descript span {
+  color: #f7cc4b;
+}
+/* line 68, ../sass/site-parts/_achievements.scss */
+#achievements .author-descript {
+  display: block;
+  margin-bottom: 200px;
+  text-align: center;
+  color: #bbb;
+  font-size: 16px;
+}
+
+/* line 1, ../sass/site-parts/_mail-list.scss */
+#mail-list {
+  overflow: hidden;
+  overflow: hidden;
+  margin: 0 -60px 0;
+  padding: 0 60px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  background-color: #f7cc4b;
+}
+/* line 22, ../sass/site-parts/_mail-list.scss */
+#mail-list .container {
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+/* line 29, ../sass/site-parts/_mail-list.scss */
+#mail-list h2 {
+  margin: 100px 0 15px;
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+}
+/* line 36, ../sass/site-parts/_mail-list.scss */
+#mail-list p {
+  margin: 0 auto 60px;
+  color: #222;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 43, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 170px;
+}
+/* line 48, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input {
+  margin: 0 15px 15px 0;
+}
+/* line 50, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input:last-child {
+  margin-right: 0;
+}
+/* line 54, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input[type="text"], #mail-list .mail-form input[type="email"] {
+  width: 288px;
+  height: 54px;
+  border: 2px solid white;
+  border-radius: 1px;
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+}
+/* line 61, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+#mail-list .mail-form input[type="text"]:-moz-placeholder, #mail-list .mail-form input[type="email"]:-moz-placeholder {
+  color: white;
+  font-size: 16px;
+}
+/* line 64, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+#mail-list .mail-form input[type="text"]::-moz-placeholder, #mail-list .mail-form input[type="email"]::-moz-placeholder {
+  color: white;
+  font-size: 16px;
+}
+/* line 67, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+#mail-list .mail-form input[type="text"]:-ms-input-placeholder, #mail-list .mail-form input[type="email"]:-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+/* line 56, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+#mail-list .mail-form input[type="text"]::-webkit-input-placeholder, #mail-list .mail-form input[type="email"]::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+/* line 66, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input[type="text"]:focus::-webkit-input-placeholder, #mail-list .mail-form input[type="email"]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 67, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input[type="text"]:focus::-moz-placeholder, #mail-list .mail-form input[type="email"]:focus::-moz-placeholder {
+  color: transparent;
+}
+/* line 68, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input[type="text"]:focus:-moz-placeholder, #mail-list .mail-form input[type="email"]:focus:-moz-placeholder {
+  color: transparent;
+}
+/* line 69, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input[type="text"]:focus:-ms-input-placeholder, #mail-list .mail-form input[type="email"]:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/* line 71, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input[type="button"] {
+  width: 184px;
+  height: 54px;
+  border: 2px solid #222;
+  border-radius: 1px;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+  transition: 0.5s;
+}
+/* line 81, ../sass/site-parts/_mail-list.scss */
+#mail-list .mail-form input[type="button"]:hover {
+  opacity: 0.7;
+}
+
 /* line 1, ../sass/layout/_footer.scss */
 footer {
+  position: relative;
   overflow: hidden;
   text-align: center;
+  background-color: #222;
 }
-/* line 4, ../sass/layout/_footer.scss */
-footer .container {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #0c0c0c;
-  box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.1);
-}
-/* line 11, ../sass/layout/_footer.scss */
-footer .container h2 {
-  display: inline-block;
-  margin: 10px;
-}
-/* line 15, ../sass/layout/_footer.scss */
-footer .container .footer-description {
-  position: relative;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 20px;
-  max-width: 440px;
-  text-align: left;
-  font-family: Arial;
-}
-/* line 22, ../sass/layout/_footer.scss */
-footer .container .footer-description:before {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 1px;
-  height: 100%;
-  content: "";
-  background-color: #121212;
-  background-image: linear-gradient(to top, #121212 0%, #333333 50%, #121212 100%);
-  box-shadow: 0 0 1.4px 1.6px rgba(0, 3, 1, 0.4);
-}
-/* line 34, ../sass/layout/_footer.scss */
-footer .container .footer-description:after {
-  position: absolute;
-  display: block;
-  right: 0;
-  top: 0;
-  width: 1px;
-  height: 100%;
-  content: "";
-  background-color: #121212;
-  background-image: linear-gradient(to top, #121212 0%, #333333 50%, #121212 100%);
-  box-shadow: 0 0 1.4px 1.6px rgba(0, 3, 1, 0.4);
-}
-/* line 47, ../sass/layout/_footer.scss */
-footer .container .footer-description .copyright-articel {
-  margin-bottom: 8px;
-  color: white;
-  font-size: 12px;
-}
-/* line 52, ../sass/layout/_footer.scss */
-footer .container .footer-description .description {
-  margin-bottom: 8px;
-  color: #bfbfbf;
-  font-size: 11px;
-}
-/* line 57, ../sass/layout/_footer.scss */
-footer .container .footer-description span {
-  float: right;
-  color: #484848;
-  font-family: 'Myriad Pro Bold Condensed';
-  font-size: 15px;
-  font-weight: 700;
-}
-/* line 65, ../sass/layout/_footer.scss */
-footer .container .link-list {
-  max-width: 175px;
-  margin-left: 10px;
-  display: inline-block;
-}
-/* line 69, ../sass/layout/_footer.scss */
-footer .container .link-list li {
-  display: inline-block;
-}
-/* line 72, ../sass/layout/_footer.scss */
-footer .container .link-list a {
-  display: inline-block;
-  width: 84px;
-  height: 29px;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-}
-/* line 79, ../sass/layout/_footer.scss */
-footer .container .link-top {
-  position: relative;
-  display: inline-block;
-  width: 45px;
-  margin: 25px 0 0 10px;
-  color: #494949;
-  font-family: 'Myriad Pro Condensed';
-  font-size: 11px;
-  text-transform: uppercase;
+/* line 6, ../sass/layout/_footer.scss */
+footer .social-list {
+  margin: 60px auto 25px;
   text-align: center;
 }
-/* line 89, ../sass/layout/_footer.scss */
-footer .container .link-top img {
-  position: absolute;
-  bottom: 15px;
-  left: 2px;
+/* line 9, ../sass/layout/_footer.scss */
+footer .social-list li {
+  display: inline-block;
+  margin: 0 12px 12px 0;
+}
+/* line 12, ../sass/layout/_footer.scss */
+footer .social-list li:last-child {
+  margin-right: 0;
+}
+/* line 15, ../sass/layout/_footer.scss */
+footer .social-list li .fa {
+  width: 48px;
+  height: 48px;
+  border: 2px solid white;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 24px;
+  color: #fff;
+  transition: 0.5s;
+}
+/* line 24, ../sass/layout/_footer.scss */
+footer .social-list li .fa:hover {
+  color: #222;
+  background-color: #fff;
+}
+/* line 31, ../sass/layout/_footer.scss */
+footer .copyright-text {
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: #bbb;
+}
+/* line 35, ../sass/layout/_footer.scss */
+footer .copyright-text span {
+  color: #f7cc4b;
 }
 
 /* line 21, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.9/sass/susy/language/susy/_box-sizing.scss */
@@ -772,7 +924,7 @@ footer .container .link-top img {
   box-sizing: border-box;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 .container {
   max-width: 1210px;
   margin-left: auto;
@@ -787,7 +939,7 @@ footer .container .link-top img {
   clear: both;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 img {
   max-width: 100%;
 }
